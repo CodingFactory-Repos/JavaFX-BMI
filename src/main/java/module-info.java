@@ -7,4 +7,6 @@ module me.loule.bmi {
 
     opens me.loule.bmi to javafx.fxml;
     exports me.loule.bmi;
+    exports me.loule.bmi.controller;
+    opens me.loule.bmi.controller to javafx.fxml;
 }
